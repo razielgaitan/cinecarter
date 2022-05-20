@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+.card-vertical {
+  height: 24rem;
+  width: 18rem;
+  font-family: "Poppins", "Sans-serif";
+  border-radius: 10px;
+  box-shadow: 0 6px 8px #bbb;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  transition: all 2s ease;
+}
+
+.card-front,
+.card-back {
+  color: #000000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 10px;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card-back {
+  -moz-transform: rotateY(179.9deg);
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+  background: #252525;
+  color: #fff;
+  overflow: auto;
+  border: solid 2px #92fff6;
+}
+
+.card-vertical:hover {
+  -webkit-transform: rotateY(179.9deg);
+  -moz-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+}
+
+.card-vertical img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: #92fff6;
+}

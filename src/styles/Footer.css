@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+.footer {
+  border-top: solid 2px #fff;
+  font-family: "Poppins", "Sans-serif";
+  color: #fff;
+  max-height: 7vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.icon {
+  font-size: 1.8em;
+  color: #fff;
+}
+
+.copy-icon {
+  font-size: 1em;
+  color: #fff;
+  padding-right: .5em;
+}
+
+.footer:hover {
+  border-top: solid 2px #92fff6;
+}

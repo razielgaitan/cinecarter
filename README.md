@@ -1,4 +1,4 @@
-![imagen.png](cinecarter.PNG)
+![imagen.png](cinecarter.png)
 
 # Getting Started with Create React App
 
